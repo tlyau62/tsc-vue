@@ -1,5 +1,5 @@
 {
-  "name": "tsc-vue",
+  "name": "tsc-vue-core",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "author": "Tsz Lam",
   "license": "ISC",
-  "workspaces": [
-    "./packages/*"
-  ]
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
