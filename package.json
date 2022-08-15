@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "npm run serve --workspace=@tsc-vue/app",
+    "build": "npm run build --workspace=@tsc-vue/components",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tsz Lam",
