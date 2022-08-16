@@ -11,6 +11,8 @@
   "author": "Tsz Lam",
   "license": "ISC",
   "workspaces": [
-    "./packages/*"
+    "./packages/core",
+    "./packages/components",
+    "./packages/app"
   ]
 }
