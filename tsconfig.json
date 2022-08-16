@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "declaration": true
+    "declaration": true,
+    "inlineSourceMap": true, // must be enabled for the host to correctly consume the sourcemap
+    "inlineSources": true  // must be enabled for the host to correctly consume the sourcemap
   }
 }
