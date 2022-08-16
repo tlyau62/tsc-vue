@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "npm run serve --workspace=@tsc-vue/app",
     "build": "npm run build --workspace=@tsc-vue/components",
+    "watch": "npm run watch --workspaces --if-present",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tsz Lam",
