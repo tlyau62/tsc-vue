@@ -2,16 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <Time />
+    <TimeButton />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import { Time } from "@tsc-vue/components";
+import { Time, TimeButton } from "@tsc-vue/components";
 
 @Component({
   components: {
     Time,
+    TimeButton,
   },
 })
 export default class App extends Vue {}
