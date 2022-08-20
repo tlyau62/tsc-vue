@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "jsx": "preserve",
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "../core/tsconfig.json"
+    }
+  ]
+}

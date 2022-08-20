@@ -8,6 +8,7 @@
     "build": "npm run build --workspace=@tsc-vue/components",
     "watch:core": "npm run watch --workspace=@tsc-vue/core",
     "watch:components": "npm run watch --workspace=@tsc-vue/components",
+    "watch:views": "npm run watch --workspace=@tsc-vue/views",
     "watch": "run-p watch:*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +17,11 @@
   "workspaces": [
     "./packages/core",
     "./packages/components",
+    "./packages/views",
     "./packages/app"
   ],
   "devDependencies": {
+    "@vue/compiler-sfc": "^2.7.8",
     "npm-run-all": "^4.1.5"
   }
 }
